@@ -1,5 +1,5 @@
 input.onGesture(Gesture.Shake, function () {
-    if (input.compassHeading() >= 45 && input.compassHeading() < 135) {
+    if (input.compassHeading() >= 45 && input.compassHeading() < 315) {
         basic.showString("E")
     } else if (input.compassHeading() >= 135 && input.compassHeading() < 225) {
         basic.showString("S")
